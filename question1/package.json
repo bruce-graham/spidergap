@@ -1,0 +1,11 @@
+{
+  "name": "question1",
+  "version": "1.0.0",
+  "description": "Coding Challenge Prompt - Question 1",
+  "main": "deepClone.js",
+  "scripts": {
+    "start": "node deepClone.js"
+  },
+  "author": "Bruce Graham",
+  "license": "ISC"
+}
