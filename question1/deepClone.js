@@ -33,5 +33,3 @@ const deepClone = inputObj => {
 
   return clonedObj;
 };
-
-console.log(deepClone([]))
