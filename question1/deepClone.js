@@ -2,7 +2,7 @@ const deepClone = inputObj => {
   const valTypes = ['string', 'number', 'boolean', 'function', 'undefined'];
   let clonedObj = {};
 
-  if (typeof inputObj !== 'object' || inputObj === null) {
+  if (typeof inputObj !== 'object' || inputObj === null || Array.isArray(inputObj)) {
     return 'Input for deepClone() was not an object';
   }
 
