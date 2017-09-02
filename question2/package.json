@@ -1,0 +1,11 @@
+{
+  "name": "question2",
+  "version": "1.0.0",
+  "description": "Coding Challenge Prompt - Question 2",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Bruce Graham",
+  "license": "ISC"
+}
